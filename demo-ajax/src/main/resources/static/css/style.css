@@ -1,0 +1,36 @@
+.corpo {  padding-top: 2rem; }
+
+.block-img {
+	max-width: 100%; 
+	height: 100%;
+	object-fit: cover;
+}
+
+@keyframes spin {
+	0% {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);}
+}
+
+.loader {
+	border: 16px solid #f3f3f3;
+	border-top: 16x solid #3498db; 
+	border-radius: 50%; 
+	width: 120px; 
+	height: 120px; 
+	animation: spin 2s linear infinite; 	
+}
+
+.pre-load {
+	margin: 0; 
+	position: absolute; 
+	top: 50%; 
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%)
+}
+
+
+
+
+
+
